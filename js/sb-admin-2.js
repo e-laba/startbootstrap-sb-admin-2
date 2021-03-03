@@ -52,5 +52,9 @@
     }, 1000, 'easeInOutExpo');
     e.preventDefault();
   });
+  $('#bologna-list a').on('click', function (e){
+    e.preventDefault()
+    $(this).tab('show')
+  })
 
 })(jQuery); // End of use strict
